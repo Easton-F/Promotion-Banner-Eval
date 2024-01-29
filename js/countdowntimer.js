@@ -3,7 +3,7 @@ const hours = document.querySelector(".promotion-countdown .hours");
 const minutes = document.querySelector(".promotion-countdown .minutes");
 const seconds = document.querySelector(".promotion-countdown .seconds");
 
-const countdownDate = new Date("2024-01-30T00:00:00").getTime();
+const countdownDate = new Date("2024-02-04T00:00:00").getTime();
 
 const setCookie = (name, value, duration) => {
     const expires = new Date();
